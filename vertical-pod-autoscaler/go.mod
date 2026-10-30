@@ -1,6 +1,6 @@
 module k8s.io/autoscaler/vertical-pod-autoscaler
 
-go 1.19
+go 1.25.0
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -18,6 +18,8 @@ require (
 	k8s.io/metrics v0.25.0
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 )
+
+require github.com/prometheus/client_model v0.3.0
 
 require (
 	github.com/blang/semver/v4 v4.0.0 // indirect
@@ -46,15 +48,14 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/spf13/cobra v1.6.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/objx v0.4.0 // indirect
-	golang.org/x/net v0.8.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/term v0.6.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
